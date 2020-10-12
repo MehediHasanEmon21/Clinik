@@ -1,0 +1,451 @@
+/****************************************************************************************/
+
+
+#loaderForMessages {
+    position: fixed;
+    top: 0;
+    z-index: 2222222;
+    background: #3949ABc2 !important;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    display: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.userRolepage .table tbody tr:not(:last-child) td {
+    border-bottom: 1px solid #C2C4D2;
+}
+
+#loaderForMessages .fa-spinner {
+    color: white !important;
+}
+.swal-button {
+  background: #F4AF2F;
+}
+.swal-title{
+  color: #F4AF2F;
+}
+
+.swal-button:link, .swal-button:focus, .swal-button:active, .swal-button:visited{
+  background-color: #F4AF2F;
+  border-color: #F4AF2F;
+  outline: none;
+  box-shadow: none;
+}
+
+.swal-footer{
+  text-align: center;
+}
+
+.swal-button:active {
+  border: none;
+}
+
+.swal-button:not([disabled]):hover {
+    background-color: #F4AF2F;
+}
+
+.swal-footer .swal-button-container:link, .swal-footer .swal-button-container:active {
+  border: 1px solid #F4AF2F;
+}
+.swal-icon--success__ring{
+  border: 4px solid #F4AF2F;
+}
+
+
+.swal-icon--success__line{
+  background-color: #3949AB;
+}
+
+.swal-text{
+  text-align: center;
+  line-height: 25px;
+}
+
+.swal-icon--error {
+    border-color: #F4AF2F;
+  
+}
+
+.swal-icon--error__line {
+
+    background-color: #3A4AAB;
+}
+
+.btn-primary {
+  border-color: #F4AF2F;
+}
+
+#file_upload_box a:active{
+    border-color: #F4AF2F;
+}
+
+
+.policy_cookie span {
+
+    font-weight: bold;
+    font-size: 15px;
+    padding-right: 28px;
+}
+
+.policy_cookie .button1 {
+
+    background: #F6AE2D;
+    border: none;
+    color: #504842;
+    padding: 0 10px 0 10px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-decoration: none;
+
+}
+
+.policy_cookie .button2 {
+
+    background: #8E8E8E;
+    border: none;
+    color: #E6E6E6;
+    padding: 0 10px 0 10px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-decoration: none;
+
+}
+
+.policy_cookie p {
+
+    padding-top: 7px;
+    padding-bottom: 6px;
+
+}
+
+.main_logo{
+    width: 120px;
+}
+
+.admin_sidebar_selected {
+  font-weight: bold !important;
+  background-color: #e6e3dc;
+}
+
+#upload-file{
+      height: auto;
+
+      border: 1px dashed #ccc;
+
+      width: 227px
+
+      margin-left: 13px;
+
+      text-align: center;
+
+      padding-top: 67px;
+      padding-bottom: 64px;
+    }
+.upload-file-box{
+ background: #FFFFFF; 
+ padding: 20px 20px 50px 20px;
+}
+
+
+  .outer_verify_box{
+      height: 239px;
+  }
+
+
+
+.common__form h5 {
+    text-align: center;
+    color: #4d4028;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 31px;
+}
+.forgot__form h5 {
+    text-align: center;
+    color: #4d4028;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.forgot__form p {
+    text-align: center;
+    margin-bottom: 35px;
+}
+.form-footer{
+    margin-top: 30px;
+}
+.forgot__form button{
+  margin-top: 30px;
+}
+.main-section {
+    padding: 1px 0px;
+}
+
+.main-logo{
+    width: 150px;
+}
+
+/*****************dashboard-inner*******************************/
+.text-primary {
+    color: #4d4028;
+    font-size: 15px;
+    padding: 5px;
+}
+.total-user small{
+  color:green;
+}
+.inactive-user small{
+  color:#c71111;;
+}
+
+.system-report a{
+    margin: 18px;
+    color: #666769;
+}
+.data-export-section {
+    padding: 20px;
+}
+.data-export-section h6 {
+    margin-top: 20px;
+    color: #696767;
+}
+.card-body.data-export-section button {
+     margin-top: 55px;
+}
+.data-import-section {
+    padding: 20px;
+}
+.card-body.data-import-section button {
+     margin-top: 25px;
+}
+.bg-danger{
+  background-color: #3949AB!important
+}
+
+.card-header:first-child {
+    border-radius: calc(.35rem - 1px) calc(.35rem - 1px) 0 0;
+}
+.font-weight-bold {
+    font-weight: 600!important;
+}
+.m-0 {
+    margin: 0!important;
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #e3e6f0;
+}
+.pt-3, .py-3 {
+    padding-top: 1rem!important;
+}
+.pb-3, .py-3 {
+    padding-bottom: 1rem!important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .35rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);                                   
+
+}
+.second-section{
+  margin-top:25px; 
+}
+.row.heading-section {
+    color: #9c2206;
+    font-size: 11px;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+.certificatoin-text button {
+    font-size: 11px;
+    padding: 5px;
+}
+.row.certificatoin-text {
+    font-size: 12px;
+    margin-top: 17px;
+    color: #565454;
+    margin-bottom: 17px;
+}
+.row.certificatoin-text img {
+    width: 17px;
+}
+.content.profilepage {
+    margin-top: 107px;
+}
+.profilepage .user_details .left-info {
+    padding-right: 65px;
+}
+
+.card-body.profile-details {
+    padding: 17px;
+}
+.card-body.profile-details1 {
+    padding-top: 17px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 127px;
+}
+.card-body.profile-details2 {
+    padding-top: 17px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 67px;
+}
+.profile-text{
+  color: #3949AB;
+}
+.profilepage .dp_below {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.message-page  ul li.contact .wrap img { width: 40px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+  }
+ .message-page  ul li.contact .wrap .meta .preview {
+    margin: 5px 0 0 0;
+    padding: 0 0 1px;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -moz-transition: 1s all ease;
+    -o-transition: 1s all ease;
+    -webkit-transition: 1s all ease;
+    transition: 1s all ease;
+}
+.message-page ul li.contact .wrap .meta .name {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.message-page ul li.contact {
+    position: relative;
+    padding: 10px 0 15px 0;
+    font-size: .9em;
+    cursor: pointer;
+    border-bottom: 1px solid #f5f5f5;
+}
+.message-page ul li.contact .wrap span.online {
+    background: #2ecc71;
+    border: 1px solid #fff;
+}
+.message-page ul li.contact .wrap span:not(.time) {
+    position: absolute;
+    left: 4px;
+    bottom: 14px;
+    margin: -2px 0 0 -2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+.list-item img {
+    margin-left: 22px;
+}
+/**************************************Sidebar************************************/
+
+/* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #F2F2F2;
+  height: 100%;
+  overflow: auto;
+  box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 72px;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Active/current link */
+.sidebar a.active {
+    background-color: #F0D29C;
+    font-weight: 700;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #F0D29C;
+
+}
+
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+ padding-left: 230px;
+  width: 100%;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 767px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {padding-left: 15px; padding-right: 15px;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+.reported-post-img{
+    width: 100px;
+}
+.user-box .dropdown-content{
+    z-index: 10;
+}
+.stick-feedback video{
+    width: 200px;
+    height: auto;
+}
+
+.messageToRadioInline{
+    display: flex !important;
+    align-items: center !important;
+}
+
+.messageToRadio{
+    opacity: 1 !important;
+    float: none !important;
+    position: inherit !important;
+    margin-left: 0px !important;
+}
+
+.boma_logo{
+    max-width: 265px;
+}

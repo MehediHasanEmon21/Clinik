@@ -1,0 +1,175 @@
+.admin-dashboard{
+ 
+    .card-body ul{
+        list-style-type: none;
+        padding: 0px 20px 0px 20px;
+      
+      }
+      .card-body ul li{
+           border-bottom: 1px solid #e3e6f0;
+           margin-top: 9px; 
+      }
+      .card-body ul li span{
+           font-size: 11px;
+          color: #b5b5b5;
+      }
+      .card-body ul li:last-child { 
+        border-bottom: none; 
+      }
+      .card-body.system-report ul li h6{
+         color: #942828
+      }
+      .card-body.system-report ul li h6 span{
+         color: #942828
+      }
+      .card-body.system-report ul li p strong{
+          color: #696767;
+          font-size: 13px;
+      }
+      .card-body.system-report ul li p small{
+         color: #b5b5b5
+      }
+    .worldMap{
+        img{
+           display: block; margin: 0 auto;
+        }
+    }
+
+    .networkCount{
+        text-align: center;
+        padding: 20px;
+        &__num{
+            font-size: 50px;
+            color: #952038;
+        }
+        &__txt{
+            font-size: 14px;
+            font-weight: 600;
+            color: #666;
+        }
+    }
+    
+    .spacialProfile{
+        padding: 20px;
+    }
+}
+
+.content{
+    padding: 100px 30px 20px;
+}
+
+.card{
+    .card-header{
+         font-size: 16px;
+         padding: 15px 15px;
+         color: $theme-color;
+         font-weight: 600;
+    }
+    .card-body{
+            .count{
+                font-size: 16px;
+                color: #333;
+                font-weight: 500;
+            }
+            small{
+                font-weight: 500;
+                font-size: 13px;
+            }
+            .title{
+                font-size: 13px;
+            }
+        
+    }
+}
+
+
+
+
+// setting page
+
+.twoFactor{
+    .toggleTowfactor{
+        text-align: right;
+        float: right;
+        color: #952038;
+        .switch{
+            margin-bottom: 0px;
+            margin-left: 10px;
+            
+        }
+        .toogleWpr{
+            display: flex;
+            align-items: center;
+        }
+    }
+   
+    p{
+        color: #666; font-size: 14px;
+    }
+}
+
+ul.emailList{
+    padding: 0;
+    li{
+        display: inline-block;
+        padding: 5px 15px;
+        border: 2px solid $color-red;
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+.interestList{
+    label{
+        font-weight: normal;
+    }
+}
+
+// end setting page
+
+.btn-pad{
+    padding: 6px 12px !important;
+}
+
+
+// community page
+
+.headBtn{
+    text-align: right;
+    .btn{
+        width: auto;
+        display: inline-block;
+        padding: 10px 25px;
+        &:not(:last-child){
+            margin-right: 10px;
+        }
+        img{
+            width:15px;
+        }
+    }
+}
+
+.certificationApproval{
+    .listBox{
+        padding: 15px; border-bottom: 1px solid #EEE;
+        margin-bottom: 20px;
+        a{
+            img{
+                width: 20px;
+            }
+        }
+        span{
+            display: inline-block;
+            vertical-align: top;
+            &:not(:last-child){
+                margin-right: 15px;
+            }
+        }
+        .btn{
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 13px;
+            margin-left: 15px;
+        }
+    }
+}

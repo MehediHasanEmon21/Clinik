@@ -1,0 +1,65 @@
+.account-setting{
+    .heading{
+        margin-bottom: 20px;
+    }
+    .form-wrapper{
+        h3{
+            font-size: 16px;
+            color: #424242;
+            margin-top: 0;
+            margin-bottom: 15px;
+            }
+            .btn-success{
+                padding: 8px 30px;
+            }
+    }
+
+    .right-side-setting{
+        h4{
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+        .setting-item{
+            &:not(:last-child){
+                margin-bottom: 15px;
+            }
+        }
+        .sub-title{
+            font-size: 13px;
+            color: #999;
+            font-weight: normal;
+        }
+        .dropdown{
+            .caret{
+                color: $theme-color;            
+            }
+            .dropdown-menu{
+                padding: 0px; border-radius: 0px;
+                width: 80px;
+                li{
+                    a{
+                        padding: 8px 10px;
+                        &:hover{
+                            background-color: $theme-color;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+@media(max-width:767px){
+    .right-side-setting{
+        min-height: auto;
+    }
+}
+
+}
+
+
+
+
+
+

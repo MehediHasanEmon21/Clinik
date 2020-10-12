@@ -1,0 +1,129 @@
+.userRolepage{
+    .content{
+        max-width: 1440px;
+        margin: 0 auto;
+        @media(max-width: 700px){
+            padding: 86px 15px 15px;
+        }
+    }
+    .userFilter{
+        display: flex; margin-bottom: 40px;
+        align-items: center;
+        &__option{
+           padding: 0 20px;
+           color: #3949AB;
+           flex: 0 0 15%;
+           text-align: center;
+           &:not(:last-child){
+               border-right: 1px solid #3949AB;
+           }
+           a{
+            color: #3949AB;
+           }
+
+           &--role{
+               display: flex;
+               align-items: center;
+               span{
+                   display: block;
+                   width: 100px;
+               }
+               input{
+                   border: none;
+                   border-bottom: 1px solid #3949AB;
+                   background-color: transparent;
+                    &:focus{
+                        box-shadow: none !important;
+                        outline: none;
+                    }
+               }
+           }
+        }
+
+        @media(max-width: 767px){
+            display: block;
+            width: 100%;
+            &__option{
+                padding: 15px;
+                &:not(:last-child){
+                    border-right: none;
+                }
+               
+            }
+        }
+    }
+    .heading{
+        text-align: center;margin-bottom: 40px;
+    }
+
+    .table{
+        border-radius: 4px;
+        overflow: hidden;
+        margin-bottom: 40px;
+        tbody{
+            tr{
+                td{
+                    border-top: none;
+                    background-color: #D2D5E6;
+                    padding: 10px 15px;
+                    vertical-align: middle;
+                    font-size: 14px;
+
+                    .userName{
+                        display: flex; align-items: center;
+                        &__pic{
+                            img{
+                                width: 50px;
+                                height: 50px;
+                            }
+                        }
+                        &__name{
+                            padding-left: 15px;
+                        }
+                        
+                    }
+
+                    .status{
+                        .dot{
+                            display: block;
+                            height: 10px;
+                            width: 10px;
+                            border-radius: 50%;
+                        }
+                        &.active{
+                            .dot{ 
+                                background-color: #5AA832;
+                            }
+                        }
+                        &.inactive{
+                          .dot{
+                            background-color: #952038;
+                          }
+                        }
+                       
+                    }
+                    .action{
+                        .editBtn{
+                            margin-right: 10px;
+                            img{
+                                width: 15px;
+                            }
+                        }
+                        .deleteBtn{
+                            img{
+                                width: 20px;
+                            }
+                        }
+                    }
+                    
+                }
+                &:not(:last-child){
+                    td{
+                        border-bottom: 1px solid #D3CFC9;
+                    }
+                }
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,163 @@
+.preview-page{
+  background-color: #FFF;font-family: 'Montserrat', sans-serif;
+
+.prev_logo {
+	margin: 15px auto 50px;
+}
+
+.counter{
+	margin-bottom: 50px;    text-align: center;
+	.col-xs-6{
+		display: inline-block;
+		margin-left: 10px;
+		margin-bottom: 0px;
+		margin-right: 10px;
+		width: auto;
+		float: none;
+		padding: 0px;
+		.label {
+			font-size: 18px;
+			display: block;
+			color: #000;
+			font-weight: normal;
+		}
+		@media(max-width: 575px){
+			display: block;
+			width: 25%;
+			float: left;
+			padding: 0px 5px;
+			margin: 0px;
+			.time {
+				color: #000;
+				font-size: 22px;
+			}
+			.label{
+				font-size: 14px;
+				padding: 5px 0;
+			}
+		}
+	}
+	.time {
+		color: #000;
+		font-size: 45px;
+	}
+	
+}
+.subscribe__form {
+	margin-bottom: 40px;
+	label{
+		font-size: 18px; 
+	}
+}
+
+.subscribe{
+	display: flex;
+	align-items: center;
+	max-width: 500px;
+	margin: 0 auto;
+	.form-control{
+		margin-right: 15px;
+	}
+
+	.button{
+		font-size: 13px;
+		border: none;
+		border-radius: 3px;
+		letter-spacing: .03em;
+		color: #fff;
+		background-color: #aaa;
+		box-sizing: border-box;
+		padding: 9px 15px;
+		display: inline-block;
+		transition: all 0.23s ease-in-out 0s;
+	}
+}
+
+.prev_logo {
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+	h2 {
+		font-size: 15px;
+		text-align: center;
+		margin-top: 8px;
+		font-weight: bold;
+	}
+}
+
+
+@media(max-width:767px){
+    .prev_logo {
+		img{
+			width: 86px;
+		}
+	}
+	
+	.counter{
+		.time {
+			
+			font-size: 23px;
+		}
+		.label{
+			font-size: 12px;
+		}
+		
+	}
+
+	
+
+  
+}
+
+
+}
+
+
+.footer-top{
+	background-color: #f2f1ed;
+	padding: 20px 15px 20px;
+	text-align: center;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+   
+
+h2 {
+	font-size: 16px;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 20px;font-weight: bold;
+	
+}
+h3 {
+    font-size: 27px;
+    color: #4d4028;
+    margin-bottom: 22px;font-weight: bold;
+}
+h4 {
+	font-size: 21px;
+	color: #888;font-weight: bold;
+}
+
+@media(max-width: 767px){
+		h2 {
+			font-size: 16px; margin-bottom: 20px;
+		}
+		h3 {
+			font-size: 18px;
+			margin-top: 0px;
+		}
+		h4 {
+			font-size: 14px;
+		
+		}
+	
+}
+}
+
+
+
+
+
+

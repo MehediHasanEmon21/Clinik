@@ -1,0 +1,191 @@
+.opportunities{
+	.heading{
+		text-align: center; margin-bottom: 30px;
+		@media(max-width: 767px){
+			margin-bottom: 15px;
+			font-size: 16px;
+		}
+	}
+
+	.btn-success{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		min-height: 35px;
+		justify-content: center;
+		.icon{
+			margin-right: 5px;
+		}
+	}
+	.add-btn{
+		color: #5AA832;
+		font-size: 14px;
+		float: right;
+	}
+	.form-group{
+		margin-bottom: 25px;
+	}
+
+	.views{
+		li{
+			font-weight: 600;
+		}
+	}
+	.opp-footer{
+		border-top: 1px solid #ddd; 
+		padding-top:10px;
+		margin-top: 10px;
+		margin-bottom: 0px;
+		li{
+			a{
+				text-decoration: none;
+			}
+		}
+     }
+	
+	&__box{
+		background-color: #fff;
+		padding:25px 25px 0;
+		box-shadow:0px 3px 6px rgba(0,0,0,0.1);
+	}
+	&__form{
+		&--searchInput{
+			padding-left: 40px;
+			background-image: url('#{$imageurl}/search_icon.png');
+			background-repeat: no-repeat;
+			background-position: 8px center;
+		}
+		&--locationInput{
+			padding-left: 40px;
+			background-repeat: no-repeat;
+			background-position: 8px center;
+			background-image: url('#{$imageurl}/location_icon.png');
+		}
+		&--search{
+			margin-right: 15px; 
+		}
+		&--select{
+			width: 20%;
+			position: relative;
+		    min-height: 1px;
+		    padding-right: 15px;
+		    padding-left: 15px;
+		    float: left;
+		}	
+
+		@media(max-width: 1199px){
+			&--select, &--input{
+				width: 50%; float: left;
+			}
+		}
+		@media(max-width: 575px){
+			&--select, &--input{
+				width: 100%; float: left;
+				display: block;
+			}
+		}
+	}
+
+	&__section{
+		padding:30px 0;
+		.view__more{
+			color: #aaa8a8; 
+			font-weight: 600;
+			text-decoration: underline;
+			&:hover{
+				color: $theme-color;
+			}
+		}
+		&--featuredOpp{
+
+		}
+
+		.featuredOpp{ 
+			margin-bottom: 30px;
+			&__title{
+					font-size:16px;	
+					margin-top: 0px;
+					margin-bottom:15px;
+					padding-right:30px;
+			}
+			&__company{
+				margin-bottom: 15px;
+				&__img{
+					width:45px;
+				}
+				&--right{
+					padding-left:10px;
+				}
+				&__name{
+					font-size:15px;
+					color: #333;
+				}
+				&__address{
+					font-size: 12px;
+					color: #666;
+				}
+
+			}
+
+			&__box{
+				padding:15px;
+				background-color:#fff;
+				border-radius:5px;
+				box-shadow:0px 2px 5px rgba(0,0,0,0.1);
+				h4{
+					font-size: 12px;
+					margin-bottom: 5px;
+				}
+				&__amount{
+					font-size:15px;
+					color: #333;
+				}
+				&__learnMore{
+					color: #666;
+					font-size:12px;
+					text-decoration: underline;
+					
+				}
+			}
+
+			.badge{
+					
+				display: block;
+				height: 30px;
+				width: 30px;
+				background-position:center;
+				background-color:transparent;
+				position:absolute;
+				right: 20px;
+				top: 10px;
+				 &--white{
+					background-image:url('../img/badge_white.jpg');
+				 }
+				 &--red{
+					background-image:url('../img/badge_red.jpg');
+				 }
+			}
+			
+		}
+
+		@media(max-width: 767px){
+			padding:15px 0;
+			.featuredOpp{
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+	@media(max-width: 575px){
+		&__box{
+			padding:15px 15px 0px;	
+		}
+
+		.add-btn{
+			float:none;
+			display: block;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+	}
+} 

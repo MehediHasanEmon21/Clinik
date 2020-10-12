@@ -1,0 +1,258 @@
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    .mobileTopPaddind .mainContent{
+        padding-top: 60px;
+    }
+    .chapter-page .banner-section .banner-image img{
+        height: auto !important;
+    }
+    .chapter-page .banner-section .banner-image{
+        height: auto;
+    }
+    #feedbackBannerRow{
+        display: block;
+    }
+    .chapter-page .banner-section .banner-wrapper .chapter-info .chapter-info-left .chapter-img{
+        width: 60px;
+        float: left;
+        margin-right: 15px;
+        margin-top: -65px;
+        height: auto;
+    }
+    .chapter-page .banner-section .banner-wrapper .chapter-info{
+        padding: 35px 20px 30px;
+    }
+    .chapter-page .banner-section .banner-wrapper .chapter-info .chapter-info-left .chapter-detail{
+        margin-top: 0px;
+    }
+
+    .footer__sortlink ul.list-inline li{
+        display: inline-block !important;
+    }
+
+    .footer__sortlink ul.list-inline li a{
+        padding: 5px 0px !important;
+    }
+    .mobileFooter{
+        display: block;
+    }
+    .DesktopFooter,.newsFeedFooter{
+        display: none;
+    }
+
+}
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+    .companyPageRow{
+        display: flex;
+        flex-direction: column;
+    }
+    .companyPageRow .companyPageColumn:nth-child(2) { order: 3; }
+    .newsFeedFooter{
+        display: none;
+    }
+}
+@media screen and (max-width: 991px) {
+    .message-page #frame .content {
+        width: calc(100% - 281px);
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .mediaLoadingBar{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .ldBar-label{
+        font-size: 20px;
+    }
+    select.form-control:focus, select.form-control:active {
+        border : 1px solid #3949AB !important;
+    }
+    .message-page #frame #sidepanel #contacts ul li.contact{
+        padding: 6px 0px 6px 8px !important;
+    }
+    .message-page #frame{
+        min-width: 315px;
+    }
+    .message-page #frame #sidepanel #contacts ul li.contact .wrap .meta{
+        display: block;
+    }
+    .message-page #frame #sidepanel{
+        width: 100%;
+    }
+    .message-page #frame .msgBarHideInMobile#sidepanel{
+        display: none;
+    }
+    .message-page #frame .content{
+        width: 100%;
+    }
+    .message-page #frame .msgBarHideInMobile.content{
+        display: none;
+    }
+    .message-page #frame .content .messages ul li.sent p{
+        width: calc(100% - 50px) !important;
+        word-break: break-word;
+    }
+    .message-page #frame .content .messages ul li.replies p{
+        width: calc(100% - 50px) !important;
+        word-break: break-word;
+    }
+    .btn-contact-list{
+        display: block;
+        float: left;
+        margin-top: 17px;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+    }
+    .message-page #frame .content .message-input .wrap button img{
+        width: 25px;
+    }
+    .message-page .social-media .dropdown-menu{
+        transform: translate3d(-10px, 20px, 5px) !important;
+    }
+    .message-page .top-bar .head, .message-page .top-bar .top-content small{
+        display: inline-block;
+    }
+    .message-page .top-content{
+        float: right !important;
+    }
+    .message-page #frame #sidepanel #search .filter{
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: inherit;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .message-page #frame #sidepanel #search .filter .dropdown-menu:before{
+        top: -5px;
+        left: 90px;
+    }
+    #newMessageDiv{
+        width: 100%;
+        right: 0;
+    }
+    #newMessageDiv .msg_footer .col-md-4{
+        width: 30%;
+        display: inline-block;
+    }
+    .ui-widget.ui-widget-content{
+        width: 295px !important;
+    }
+    .notification-wrap .notification_list .content-left{
+        width: 100%;
+    }
+    .notification-wrap .notification_list .content-right{
+        padding: 10px;
+        float: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .navTop{
+        background: #F6AE2D;
+        display: block;
+    }
+    .navTop .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header .navbar-default .navbar-collapse .navbar-form{
+        margin-right: 20px;
+    }
+    #navbar-main .nav>li a{
+        padding: 10px 15px;
+    }
+    #navbar-main .dropdown.boma_nav_avatar a{
+        padding: 10px 0px;
+    }
+    .header .navbar-default .navbar-collapse .navbar-form .form-control{
+        width : 170px;
+    }
+    .header .navbar-default .navbar-header .navbar-brand{
+        display: none;
+    }
+    .header .navbar-default .navbar-collapse .navbar-form{
+        margin-left: 0px;
+    }
+    .header .navbar-default .container{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+    .navTop{
+        background: #F6AE2D;
+        display: block;
+    }
+    .navTop .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #navbar-main .nav>li a{
+        padding: 10px 25px;
+    }
+    .header .navbar-default .navbar-collapse .navbar-form .form-control{
+        width : 200px;
+    }
+    .header .navbar-default .navbar-header .navbar-brand{
+        display: none;
+    }
+    .header .navbar-default .navbar-collapse .navbar-form{
+        margin-left: 0px;
+    }
+    .header .navbar-default .container{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 767px){
+    .chapter-page .banner-section .banner-image img{
+        /*height: auto !important;*/
+        min-height: auto !important;
+    }
+}
+@media screen and (max-width: 992px){
+    .sign_up_left_inner .social_image{
+        height: 215px;
+        margin-top: 20px;
+    }
+    .sign_up_left_inner p{
+        font-size: 12px;
+    }
+    .sign_up_left_inner #readMoreBomaDetails, .sign_up_left_inner #readMoreBomaDetailsMobile{
+        font-size: 9px;
+    }
+    .sign_up_left_inner #readMoreBomaDetails .fa, .sign_up_left_inner #readMoreBomaDetailsMobile .fa{
+        font-size: 12px;
+    }
+    .bomalink_intro_mobile{
+        display: block;
+        padding-top: 20px;
+    }
+    .bomalink_intro_desktop{
+        display: none;
+    }
+    .notVisible{
+        display: none;
+    }
+    .sign_up_left_inner{
+        padding: 15px 0px;
+    }
+}
+@media screen and (max-width: 600px){
+    .sign_up_left_inner .social_image{
+        height: 180px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 414px){
+    .sign_up_left_inner .social_image{
+        height: 145px;
+        margin-top: 20px;
+    }
+}
